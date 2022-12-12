@@ -1,5 +1,6 @@
 
 import React from "react"
+import Registre from "./Registre"
 
 export default function () {
   return (
@@ -28,7 +29,7 @@ export default function () {
               Go
             </button>
            
-            <a className="btn btn-primary" href="#" role="button">
+            <a className="btn btn-primary" href="Registre" role="button">
             Créer un compte</a>
           </div>
           <p className="forgot-password text-right mt-2">
