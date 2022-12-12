@@ -8,7 +8,7 @@ export default function () {
         <div className="Auth-form-content">
           <h3 className="Auth-form-title">Se connecter</h3>
           <div className="form-group mt-3">
-            <label>Adresse e-mail</label>
+            <label>Adresse mail professionnelle</label>
             <input
               type="email"
               className="form-control mt-1"
@@ -25,12 +25,15 @@ export default function () {
           </div>
           <div className="d-grid gap-2 mt-3">
             <button type="submit" className="btn btn-primary">
-              Se connecter
+              Go
             </button>
+           
+            <a className="btn btn-primary" href="#" role="button">
+            Créer un compte</a>
           </div>
           <p className="forgot-password text-right mt-2">
             <a href="#">mot de passe oublié ?</a>
-            <a href="#"><br/>Créer un compte</a>
+           
           </p>
         </div>
       </form>
