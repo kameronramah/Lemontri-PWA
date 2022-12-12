@@ -6,9 +6,9 @@ export default function (props) {
     <div className="Auth-form-container">
       <form className="Auth-form">
         <div className="Auth-form-content">
-          <h3 className="Auth-form-title">Sign In</h3>
+          <h3 className="Auth-form-title">Se connecter</h3>
           <div className="form-group mt-3">
-            <label>Email address</label>
+            <label>Adresse e-mail</label>
             <input
               type="email"
               className="form-control mt-1"
@@ -16,7 +16,7 @@ export default function (props) {
             />
           </div>
           <div className="form-group mt-3">
-            <label>Password</label>
+            <label>Mot de passe</label>
             <input
               type="password"
               className="form-control mt-1"
@@ -25,11 +25,12 @@ export default function (props) {
           </div>
           <div className="d-grid gap-2 mt-3">
             <button type="submit" className="btn btn-primary">
-              Submit
+              Se connecter
             </button>
           </div>
           <p className="forgot-password text-right mt-2">
-            Forgot <a href="#">password?</a>
+            <a href="#">mot de passe oublié ?</a>
+            <a href="#"><br/>Créer un compte</a>
           </p>
         </div>
       </form>
