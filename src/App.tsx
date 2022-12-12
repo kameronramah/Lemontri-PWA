@@ -17,12 +17,8 @@ const App: React.FC = () => (
             </ul>
           </nav>
           <Routes>
-            <Route path="/about">
-              <About />
-            </Route>
-            <Route path="/">
-              <Home />
-            </Route>
+            <Route path="/about" element={<About/>} />
+            <Route path="/" element={<Home/>} />
           </Routes>
       </Suspense>
     </Router>
