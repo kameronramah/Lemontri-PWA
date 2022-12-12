@@ -5,6 +5,8 @@ import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 const About = lazy(() => import('./About'));
 const Home = lazy(() => import('./Home'));
 const Auth = lazy(() => import('./Auth'));
+const Registre = lazy(() => import ('./Registre'));
+
 
 const App: React.FC = () => (
     <Router>
@@ -20,12 +22,16 @@ const App: React.FC = () => (
               <li>
                 <Link to="/Auth"> Login </Link>
               </li>
+              <li>
+                <Link to ="/Registre">Créer un compte </Link>
+              </li>
             </ul>
           </nav>
           <Routes>
             <Route path="/about" element={<About/>} />
             <Route path="/" element={<Home/>} />
             <Route path="/Auth" element={<Auth/>} />
+            <Route path="/Registre" element={<Registre/>} />
           </Routes>
       </Suspense>
     </Router>
