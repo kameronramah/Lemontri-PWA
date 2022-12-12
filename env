@@ -1,0 +1,6 @@
+REACT_APP_API_KEY = 'AIzaSyDXMu1BR5N1OhUSlxoddleSRPzBosypwcE'
+REACT_APP_AUTH_DOMAIN = 'lemontri-pwa-fccf8.firebaseapp.com'
+REACT_APP_PROJECT_ID = 'lemontri-pwa-fccf8'
+REACT_APP_STORAGE_BUCKET = 'lemontri-pwa-fccf8.appspot.com'
+REACT_APP_MESSAGING_SENDER_ID = '571381995329'
+REACT_APP_APP_ID = '1:571381995329:web:7cbb33822de1cd2a7af3c0'
