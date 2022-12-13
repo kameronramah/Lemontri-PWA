@@ -1,6 +1,8 @@
 
 import React from "react"
 import Registre from "./Registre"
+import { useNavigate } from "react-router-dom";
+  
 
 export default function () {
   return (

@@ -2,10 +2,10 @@ import React, { Suspense, lazy } from "react";
 import "bootstrap/dist/css/bootstrap.min.css"
 import "./App.css"
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
-const About = lazy(() => import('./About'));
-const Home = lazy(() => import('./Home'));
-const Auth = lazy(() => import('./Auth'));
-const Registre = lazy(() => import ('./Registre'));
+const About = lazy(() => import('./components/About'));
+const Home = lazy(() => import('./components/Home'));
+const Auth = lazy(() => import('./components/Auth'));
+const Registre = lazy(() => import ('./components/Registre'));
 
 
 const App: React.FC = () => (
@@ -32,6 +32,7 @@ const App: React.FC = () => (
             <Route path="/" element={<Home/>} />
             <Route path="/Auth" element={<Auth/>} />
             <Route path="/Registre" element={<Registre/>} />
+            {/* <Route path="*" element={<PageNotFound />} /> */}
           </Routes>
       </Suspense>
     </Router>
